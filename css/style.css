@@ -1,0 +1,358 @@
+
+body {    
+    margin: 0 auto;
+    font-family: Cuprum,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;;
+}
+.header-wrapper{
+    background-color: #293449;
+}
+.visual-hidden{
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+
+.header-top{
+    height: 42px;
+    display: flex;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-logo{
+    position: relative;
+    background-color: #ee3643;
+    width: 109px;
+    height: 18px;
+    padding-left: 55px;
+    padding-right: 56px;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    display: block;
+    box-shadow: inset 0 -5px 0 0 rgba(0,0,0,.24);
+}
+.order-button{
+    background-color: #63a63e;
+    line-height: 18px;
+    padding-left: 20px;
+    padding-right: 22px;
+    width: 110px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    height: 17px;
+    color: #FFFFFF;
+    text-decoration: none
+}
+
+.top-header-button{
+    line-height: 18px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    color: #FFFFFF;
+    text-decoration: none
+}
+.bookmark{
+    width: 105px;
+    padding-left: 44px;
+    padding-right: 1px;  
+}
+
+.basket{
+    width: 105px;
+    padding-left: 44px;
+    padding-right: 1px;
+}
+
+.search{
+    width: 270px;
+}
+
+.input-search{
+    line-height: 18px;
+    width: 270px;
+    height: 42px;
+    background-color: #293449;
+    padding-left: 48px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-right: 21px;
+    background-image: url(../img/icon-search-white-op.svg);
+    background-position: 17px 50%;
+    background-repeat: no-repeat;
+    border:none;
+}
+.header-bot{
+    background: #F2F2F2;
+    padding-bottom: 60px;
+}
+.header-bot-container{
+    display: flex;
+    padding-bottom: 40px;
+    padding-top: 45px;
+    
+}
+
+.header-phone{
+    margin-left: 70px;
+    width: 270px;
+    height: 68px;  
+       
+}
+
+.phone-back{
+    width: 152px;
+    height: 15px;
+    border: solid 3px #fff;
+    padding-left: 66px;
+    padding-right: 46px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    background-image: url(../img/icon-phone.svg);
+    background-repeat: no-repeat;
+    background-position: 15px 50%;
+}
+.phone{
+    color: #e9292a;
+    font-size: 21px;
+    line-height: 21px;
+    text-decoration: none;
+    font-weight: 500;
+ 
+
+}
+
+.about{
+    font-size: 16px;
+    line-height: 23px;
+    color: #ee3643;
+    font-family: CuprumItalic,Arial,sans-serif;
+    font-style: italic;
+    text-align: left;
+    width: 197px;
+    padding-left: 52px;
+    padding-top: 4px;
+    margin: 0;
+
+    
+}
+
+.adress{
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #32425c;
+    padding-top: 5px;
+    width: 270px;
+    padding-left: 10px;
+}
+
+.enter-registration{
+    margin-left: auto;
+    display: flex;
+   
+}
+.enter{
+    
+    margin-right: 8px;
+    height: 20px;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    padding-left: 47px;
+    padding-right: 27px;
+    
+    color: #000;
+
+    background-image: url(../img/icon-login.svg);
+    background-repeat: no-repeat;
+    background-position: 17px 50%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+
+}
+.registration{
+    
+    height: 20px;
+    width: 101px;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 25px;
+    padding-right: 24px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.navigation{
+    margin: 0;
+    padding-left: 20px;
+    width: 940px;
+    height: 60px;   
+    display:flex;
+    background: #32425C;
+    list-style: none;
+}
+
+
+.navigation-button{
+       
+    padding-left: 31px;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    padding-right: 30px;
+
+}
+
+.footer-top-wraper{
+    background-color: #32425c;
+    color: #fff;
+
+}
+
+
+
+.footer-top{
+    height: 200px;
+    color: #F3F7F9;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+.footer-adress{
+    width: 352px;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.footer-up-navigation{
+    margin-left: 70px;
+    display: flex;
+    list-style-type: none;
+}
+.footer-down-navigation{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-up-navigation-button{
+    margin-left: 50px;
+    padding-top: 20px;
+
+}
+
+
+.footer-top-up{
+    display:flex;   
+}
+
+.footer-top-down{
+    display: flex;
+    
+}
+.footer-logo{
+    width: 192px;
+    height: 48px;
+    padding-top:20px;
+    padding-left: 28px;
+    background-color: #ee3643;
+    display: block;
+    box-shadow: inset 0 -5px 0 0 rgba(0,0,0,.24);
+
+}
+
+.footer-bot-wraper{
+    color: #fff;
+    background-color: #293449;
+    padding-top: 20px;
+    
+}
+
+.footer-bot{
+    
+display: flex;
+font-size: 16px;
+line-height: 18px;
+padding-bottom: 10px;
+}
+.footer-bot a{
+    color: #63a63e;
+}
+.socialwebs{
+    margin-top: 10px;
+    display: flex;
+    margin-right: 50px;
+
+}
+.socialwebs-button{
+    background-color: #212a3a;
+    border-radius: 50%;
+    margin-left: 5px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copiright{
+    margin-right: 45px;
+    padding-right: 45px;
+}
+.yellow{
+    color: #FFD180;;
+}
+
+.feedback{
+    margin-left: 50px;
+}
+
+
+@font-face {
+    font-family: "Cuprum";
+        src:    url("../fonts/cuprum.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CuprumBold";
+    src:   url("../fonts/сuprumbold.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CuprumItalic";
+    src:     url("../fonts/cuprumitalic.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CuprumBoldItalic";
+     src:     url("../fonts/cuprumbolditalic.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
